@@ -1,0 +1,35 @@
+.rt-site-header{
+    .navbar{
+        padding: 26px 0px;
+        transition: all 0.34s ease-in-out;
+        .brand-logo{
+            width: 100%;
+            display: inline-block;
+            max-width: 175px;
+        }
+    }
+    &.rt-sticky-active{
+        background-color: #fff;
+        box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+        .navbar{
+            padding: 10px 0;
+        }
+        
+    }
+    .nav-tools{
+        margin-left: 33px;
+        @include breakpoint(md){
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+    }
+    .brand-logo{
+        @include breakpoint(md){
+            max-width: 150px;
+        }
+    }
+    .brand-logo+.d-flex{
+        width: 87%;
+        justify-content: flex-end;
+    }
+}

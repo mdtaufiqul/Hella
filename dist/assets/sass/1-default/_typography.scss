@@ -1,0 +1,81 @@
+// heading
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: $heading-font;
+    color: $headnig-font-color;
+}
+
+h1,
+.h1 {
+    font-size: 42px;
+    @include breakpoint(md) {
+        font-size: 40px;
+    }
+    @include breakpoint(xs) {
+        font-size: 38px;
+    }
+}
+
+h2,
+.h2 {
+    font-size: 38px;
+    @include breakpoint(md) {
+        font-size: 36px;
+    }
+    @include breakpoint(xs) {
+        font-size: 34px;
+    }
+}
+
+h3,
+.h3 {
+    font-size: 30px;
+    @include breakpoint(md) {
+        font-size: 28px;
+    }
+    @include breakpoint(xs) {
+        font-size: 25px;
+    }
+}
+
+h4,
+.h4 {
+    font-size: 25px;
+    @include breakpoint(md) {
+        font-size: 23px;
+    }
+    @include breakpoint(xs) {
+        font-size: 20px;
+    }
+}
+
+h5,
+.h5 {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+}
+
+p {
+    font-size: $default-font-size;
+    font-family: $body-font;
+    line-height: 36px;
+    @include breakpoint(xs){
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

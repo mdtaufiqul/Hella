@@ -1,0 +1,37 @@
+header{
+    background-image: url('../images/all-img/top-bar-bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    position: relative;
+    z-index: 9;
+    .header-inner {
+        padding: 15px 0px 50px 0px;
+        .feature-wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .feature-single{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-right: 65px;
+                &:last-child{
+                    margin-right: 0;
+                }
+                img{
+                    max-width: 33px;
+                    height: 20px;
+                    margin-right: 10px;
+                    display: inline-block;
+                }
+                p{
+                    color: #000;
+                    font-size: 14px;
+                    line-height: 1;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}   

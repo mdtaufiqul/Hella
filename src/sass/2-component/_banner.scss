@@ -1,0 +1,55 @@
+.home-banner{
+    margin-top: -40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    .banner-inner{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 100vh;
+        .banner-content{
+            padding: 100px 0px;
+        }
+        nav{
+            position: absolute;
+            top: 40px;
+            left: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px 50px;
+            .nav-left{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                .menu-icon{
+                    cursor: pointer;
+                    margin-right: 30px;
+                    max-width: 45px;
+                }
+                a{
+                    display: inline-block;
+                    font-size: 20px;
+                    line-height: 1;
+                    color: #fff;
+                }
+            }
+            .nav-right{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                .search-icon{
+                    margin-right: 30px;
+                }
+                img{
+                    width: 100%;
+                    max-width: 35px;
+                    max-height: 35px;
+                }
+            }
+        }
+    }
+}
