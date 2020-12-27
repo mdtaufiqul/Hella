@@ -760,7 +760,7 @@ header .header-inner .feature-wrapper .feature-single p
     background-image: url('../images/all-img/bg-yellow.png');
     background-position: top;
     background-size: cover;
-    background-size: cover;
+    background-size: contain;
 }
 .cbd .cbd-inner
 {
@@ -826,6 +826,172 @@ header .header-inner .feature-wrapper .feature-single p
 
     max-width: 49%;
     max-height: 800px;
+}
+
+.what-new.section-padding
+{
+    padding-top: 190px;
+    padding-bottom: 130px;
+}
+
+.what-new .wn-slider
+{
+    position: relative; 
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.what-new .wn-slider .sn-slider-single
+{
+    padding: 0 50px;
+}
+.what-new .wn-slider .control-c
+{
+    position: absolute;
+    z-index: 99; 
+    top: 50%;
+    left: 115px;
+
+    width: 60px;
+
+    -webkit-transform: translateY(-50%) rotate(180deg);
+        -ms-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
+}
+.what-new .wn-slider .control-c.next
+{
+    right: 115px;
+    left: unset;
+
+    -webkit-transform: translateY(-50%) rotate(0deg);
+        -ms-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+}
+
+.join-community
+{
+    position: relative;
+    z-index: 10; 
+
+    margin-top: -40px;
+
+    background-image: url('../images/all-img/bg_purple.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.join-community .jc-head
+{
+    margin-bottom: 90px;
+
+    color: #fff;
+}
+.join-community .jc-head img
+{
+    display: inline-block;
+
+    max-width: 70px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.join-community .jc-head h2
+{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1;
+
+    margin-bottom: 35px; 
+
+    color: #fff;
+}
+.join-community .jc-head p
+{
+    font-size: 18px;
+    line-height: 40px; 
+
+    margin: 0;
+}
+.join-community .jc-content
+{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+            align-items: center;
+}
+.join-community .jc-content .jc-images-single
+{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+            flex-direction: column;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+            align-items: center;
+}
+.join-community .jc-content .jc-images-single img
+{
+    display: inline-block;
+
+    margin-bottom: 15px;
+}
+.join-community .jc-content .jc-images-single img:last-child
+{
+    margin-bottom: 0;
+}
+.join-community .jc-content .jc-images-single:nth-child(2n)
+{
+    margin-top: -70px;
+}
+.join-community .jc-content .jc-images-single:nth-child(2n) img
+{
+    -webkit-box-ordinal-group: 5;
+    -webkit-order: 4;
+    -ms-flex-order: 4;
+            order: 4;
+}
+.join-community .jc-content .jc-images-single:nth-child(2n) img:last-child
+{
+    margin-bottom: 15px; 
+
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+            order: 1;
+}
+.join-community .jc-content .jc-images-single:nth-child(2n) img:first-child
+{
+    margin-bottom: 0;
 }
 
 /*# sourceMappingURL=app.css.map */

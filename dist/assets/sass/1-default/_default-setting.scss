@@ -7,7 +7,7 @@ body {
     line-height: $line-height;
     font-size: $body-font-size;
     color: $body-font-colr;
-    font-family: "Work Sans", sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     vertical-align: baseline;
@@ -91,15 +91,4 @@ img {
 }
 .slick-slide {
     outline: none;
-}
-
-#{$all-buttons-active},
-#{$all-buttons-focus},
-#{$all-buttons-hover},
-#{$all-text-inputs-focus},
-#{$all-text-inputs-active},
-#{$all-text-inputs-hover},
-#{$all-text-inputs-invalid} {
-    outline: none;
-    box-shadow: none;
 }

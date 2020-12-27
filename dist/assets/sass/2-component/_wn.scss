@@ -1,0 +1,17 @@
+.what-new{
+    &.section-padding{
+        padding-top: 190px;
+        padding-bottom: 130px;
+    }
+    .wn-slider{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .sn-slider-single{
+            padding: 0px 50px;
+            // &[tabindex="-1"]{
+            //     opacity:0;
+            // }
+        }
+    }
+}
