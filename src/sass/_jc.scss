@@ -1,0 +1,59 @@
+.jcm{
+    padding: 0px 15px;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    .jcm-inner{
+        max-width: 1170px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        .jcm-left{
+            p{
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 1.2;
+                letter-spacing: -2px;
+            }
+        }
+        .jcm-right{
+            width: 100%;
+            max-width: 640px;
+            height: 60px;
+            border-radius: 50px;
+            overflow: hidden;
+            position: relative;
+            input{
+                display: inline-block;
+                height: 60px;
+                width: 100%;
+                background: #F7F7F7;
+                color: #1d1d1d;
+                font-size: 18px;
+                line-height: 1;
+                border: 0px;
+                padding-left: 30px;
+                padding-right: 250px;
+                &:focus{
+                    border: 0px;
+                    outline: 0px;
+                }
+            }
+            button, input[type="submit"]{
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 240px;
+                height: 100%;
+                background: #0485FF;
+                color: #fff;
+                border-radius: 30px;
+                border: 0px;
+                font-size: 20px;
+                line-height: 1;
+                text-align: center;
+                font-weight: 700;
+            }
+        }
+    }
+}
